@@ -1,6 +1,8 @@
 # compress
 H5图片压缩
 # 使用方法
+
+```html
 <script src="./dist/lrz.bundle.js"></script>
 $('.file').on('change', function () {
         var fileData = this.files[0];
@@ -14,3 +16,5 @@ $('.file').on('change', function () {
 
         });
     });
+```
+
